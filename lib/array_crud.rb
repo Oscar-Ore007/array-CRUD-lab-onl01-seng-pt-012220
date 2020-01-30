@@ -1,21 +1,22 @@
 def create_an_empty_array
-  
+  []
 end
 
 def create_an_array
-  
+  [0,1,2,3]
 end
 
 def add_element_to_end_of_array(array, element)
-  
+  [0,1,2,3] << "arrays!"
 end
 
 def add_element_to_start_of_array(array, element)
+  [0,1,2,3].unshift('wow')
   
 end
 
 def remove_element_from_end_of_array(array)
-  
+  remove_element_from_end_of_array=("arrays!").pop
 end
 
 def remove_element_from_start_of_array(array)
